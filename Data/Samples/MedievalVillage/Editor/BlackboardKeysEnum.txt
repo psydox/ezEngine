@@ -1,0 +1,11 @@
+Crouch-Fwd
+Crouch-LR
+Fight-UpperBody
+Fight_Action
+Fighting-State
+Hit-Reaction
+Hit-Reaction-Play
+Locomotion-State
+Roll-Action
+Walk-Fwd
+Walk-LR

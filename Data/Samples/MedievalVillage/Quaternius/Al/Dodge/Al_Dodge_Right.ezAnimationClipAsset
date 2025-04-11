@@ -1,0 +1,340 @@
+HeaderV2
+{
+o
+{
+	Uuid %id{u4{15131599419445057448,4688810180882816484}}
+	s %t{"ezAssetDocumentInfo"}
+	u3 %v{2}
+	s %n{"Header"}
+	p
+	{
+		s %AssetType{"Animation Clip"}
+		VarArray %Dependencies
+		{
+			s{"Quaternius/Al/Al.glb"}
+		}
+		Uuid %DocumentID{u4{15131599419445057448,4688810180882816484}}
+		u4 %Hash{12768493375318498284}
+		VarArray %MetaInfo{}
+		VarArray %Outputs{}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"Quaternius/Al/Al.glb"}
+		}
+		s %Tags{""}
+	}
+}
+}
+Objects
+{
+o
+{
+	Uuid %id{u4{6102105450985155228,5324736404703767439}}
+	s %t{"ezEventTrackControlPointData"}
+	u3 %v{1}
+	p
+	{
+		s %Event{"Roll-Finished"}
+		i4 %Tick{4320}
+	}
+}
+o
+{
+	Uuid %id{u4{6933915687018024629,5360557851966197531}}
+	s %t{"ezAnimationClipAssetProperties"}
+	u3 %v{3}
+	p
+	{
+		b %Additive{0}
+		VarArray %AvailableClips
+		{
+			s{"A_Tpose"}
+			s{"BackFlip"}
+			s{"Celebration"}
+			s{"Climb_Down_Loop"}
+			s{"Climb_Enter"}
+			s{"Climb_Exit"}
+			s{"Climb_Idle_Loop"}
+			s{"Climb_Left_Loop"}
+			s{"Climb_Left_RM_Loop"}
+			s{"Climb_Right_Loop"}
+			s{"Climb_Right_RM_Loop"}
+			s{"Climb_Up_Loop"}
+			s{"ClimbLedge"}
+			s{"ClimbLedge_RM"}
+			s{"Counter_Angry"}
+			s{"Counter_Enter"}
+			s{"Counter_Exit"}
+			s{"Counter_Give"}
+			s{"Counter_Idle_Loop"}
+			s{"Counter_Show"}
+			s{"Crawl_Bwd_Loop"}
+			s{"Crawl_Enter"}
+			s{"Crawl_Exit"}
+			s{"Crawl_Fwd_Loop"}
+			s{"Crawl_Idle_Loop"}
+			s{"Crawl_Left_Loop"}
+			s{"Crawl_Right_Loop"}
+			s{"Crouch_Bwd_L_Loop"}
+			s{"Crouch_Bwd_Loop"}
+			s{"Crouch_Bwd_R_Loop"}
+			s{"Crouch_Enter"}
+			s{"Crouch_Exit"}
+			s{"Crouch_Fwd_L_Loop"}
+			s{"Crouch_Fwd_Loop"}
+			s{"Crouch_Fwd_R_Loop"}
+			s{"Crouch_Idle_Loop"}
+			s{"Crouch_Left_Loop"}
+			s{"Crouch_Right_Loop"}
+			s{"Crying"}
+			s{"Dance_Loop"}
+			s{"Death01"}
+			s{"Death02"}
+			s{"Dodge_Left"}
+			s{"Dodge_Left_RM"}
+			s{"Dodge_Right"}
+			s{"Dodge_Right_RM"}
+			s{"Drink"}
+			s{"Driving_Loop"}
+			s{"Fixing_Kneeling"}
+			s{"GroundSit_Enter"}
+			s{"GroundSit_Exit"}
+			s{"GroundSit_Idle_Loop"}
+			s{"Hit_Chest"}
+			s{"Hit_Head"}
+			s{"Hit_Shoulder_L"}
+			s{"Hit_Shoulder_R"}
+			s{"Hit_Stomach"}
+			s{"Idle_LookAround_Loop"}
+			s{"Idle_Loop"}
+			s{"Idle_Paper"}
+			s{"Idle_Rock"}
+			s{"Idle_Scissors"}
+			s{"Idle_Talking_Loop"}
+			s{"Idle_Tired_Loop"}
+			s{"Idle_Torch_Loop"}
+			s{"Interact"}
+			s{"Jog_Bwd_L_Loop"}
+			s{"Jog_Bwd_Loop"}
+			s{"Jog_Bwd_R_Loop"}
+			s{"Jog_Fwd_L_Loop"}
+			s{"Jog_Fwd_LeanL_Loop"}
+			s{"Jog_Fwd_LeanR_Loop"}
+			s{"Jog_Fwd_Loop"}
+			s{"Jog_Fwd_R_Loop"}
+			s{"Jog_Left_Loop"}
+			s{"Jog_Right_Loop"}
+			s{"Jump_Land"}
+			s{"Jump_Loop"}
+			s{"Jump_Start"}
+			s{"Kick"}
+			s{"PickUp_Kneeling"}
+			s{"PickUp_Table"}
+			s{"Pistol_Aim_Down"}
+			s{"Pistol_Aim_Neutral"}
+			s{"Pistol_Aim_Up"}
+			s{"Pistol_Idle_Loop"}
+			s{"Pistol_Reload"}
+			s{"Pistol_Shoot"}
+			s{"Punch_Cross"}
+			s{"Punch_Jab"}
+			s{"PunchKick_Enter"}
+			s{"PunchKick_Exit"}
+			s{"Push_Enter"}
+			s{"Push_Exit"}
+			s{"Push_Loop"}
+			s{"Roll"}
+			s{"Roll_RM"}
+			s{"Sitting_Enter"}
+			s{"Sitting_Exit"}
+			s{"Sitting_Idle02_Loop"}
+			s{"Sitting_Idle03_Loop"}
+			s{"Sitting_Idle_Loop"}
+			s{"Sitting_Nodding_Loop"}
+			s{"Sitting_Talking_Loop"}
+			s{"Spell_Double_Enter"}
+			s{"Spell_Double_Exit"}
+			s{"Spell_Double_Idle_Loop"}
+			s{"Spell_Double_Shoot_Loop"}
+			s{"Spell_Simple_Enter"}
+			s{"Spell_Simple_Exit"}
+			s{"Spell_Simple_Idle_Loop"}
+			s{"Spell_Simple_Shoot"}
+			s{"Sprint_Enter"}
+			s{"Sprint_Exit"}
+			s{"Sprint_Loop"}
+			s{"Swim_Fwd_Loop"}
+			s{"Swim_Idle_Loop"}
+			s{"Sword_Attack"}
+			s{"Sword_Attack_RM"}
+			s{"Sword_Attack_Standing"}
+			s{"Sword_Enter"}
+			s{"Sword_Exit"}
+			s{"Sword_Idle"}
+			s{"Turn90_L"}
+			s{"Turn90_R"}
+			s{"Walk_Formal_Loop"}
+			s{"Walk_Loop"}
+		}
+		Vec3 %ConstantRootMotion{f{0,0x0000803F,0}}
+		Uuid %EventTrack{u4{1409337401374632124,11256236259081497467}}
+		s %File{"Quaternius/Al/Al.glb"}
+		u3 %FirstFrame{0}
+		u3 %NumFrames{0}
+		s %PreviewMesh{"{ 88952942-8836-4f48-acff-7c6a3cb4a208 }"}
+		s %RootMotion{"ezRootMotionSource::Constant"}
+		f %RootMotionDistance{0x0000A040}
+		s %UseAnimationClip{"Dodge_Right"}
+	}
+}
+o
+{
+	Uuid %id{u4{18096612296587978288,6449934965513159559}}
+	s %t{"ezDocumentRoot"}
+	u3 %v{1}
+	s %n{"ObjectTree"}
+	p
+	{
+		VarArray %Children
+		{
+			Uuid{u4{6933915687018024629,5360557851966197531}}
+		}
+	}
+}
+o
+{
+	Uuid %id{u4{1409337401374632124,11256236259081497467}}
+	s %t{"ezEventTrackData"}
+	u3 %v{3}
+	p
+	{
+		VarArray %ControlPoints
+		{
+			Uuid{u4{6102105450985155228,5324736404703767439}}
+		}
+	}
+}
+}
+Types
+{
+o
+{
+	Uuid %id{u4{6089094783765586323,8705960867921430659}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{11015610706821488674,9052215883761519321}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezEventTrackData"}
+		u3 %TypeVersion{3}
+	}
+}
+o
+{
+	Uuid %id{u4{16147564638840122555,14075669034321763640}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"ezEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"ezRootMotionSource"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{11235755960658565766,14374470961055231674}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezEventTrackControlPointData"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{2947336711354777548,15013008608905564043}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezEnumBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{919881006902949434,15110225034563490820}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"ezEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"ezAnimationClipAssetProperties"}
+		u3 %TypeVersion{3}
+	}
+}
+o
+{
+	Uuid %id{u4{983387834180907111,17935407260904399048}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezReflectedClass"}
+		u3 %TypeVersion{1}
+	}
+}
+}

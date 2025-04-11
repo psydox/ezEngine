@@ -1,0 +1,274 @@
+HeaderV2
+{
+o
+{
+	Uuid %id{u4{10329652433739574682,5671752366801503622}}
+	s %t{"ezAssetDocumentInfo"}
+	u3 %v{2}
+	s %n{"Header"}
+	p
+	{
+		s %AssetType{"BlackboardTemplate"}
+		VarArray %Dependencies{}
+		Uuid %DocumentID{u4{10329652433739574682,5671752366801503622}}
+		u4 %Hash{3674900148353054303}
+		VarArray %MetaInfo{}
+		VarArray %Outputs{}
+		VarArray %PackageDeps{}
+		VarArray %References{}
+		s %Tags{""}
+	}
+}
+}
+Objects
+{
+o
+{
+	Uuid %id{u4{10227614784269478300,4654326397470080506}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		b %InitialValue{1}
+		HashedString %Name{s{"Fight-UpperBody"}}
+	}
+}
+o
+{
+	Uuid %id{u4{17072772306278193597,4759772698883425744}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		f %InitialValue{0}
+		HashedString %Name{s{"Walk-LR"}}
+	}
+}
+o
+{
+	Uuid %id{u4{6238503411402015659,4813652658163697760}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		b %InitialValue{0}
+		HashedString %Name{s{"Hit-Reaction-Play"}}
+	}
+}
+o
+{
+	Uuid %id{u4{2658277158080620686,5035772395138695755}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		f %InitialValue{0}
+		HashedString %Name{s{"Walk-Fwd"}}
+	}
+}
+o
+{
+	Uuid %id{u4{5313158230837119931,5181271833179655261}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		i3 %InitialValue{0}
+		HashedString %Name{s{"Roll-Action"}}
+	}
+}
+o
+{
+	Uuid %id{u4{7239056396489362837,5189764102383324185}}
+	s %t{"ezBlackboardTemplateAssetObject"}
+	u3 %v{1}
+	p
+	{
+		VarArray %BaseTemplates{}
+		VarArray %Entries
+		{
+			Uuid{u4{2658277158080620686,5035772395138695755}}
+			Uuid{u4{17072772306278193597,4759772698883425744}}
+			Uuid{u4{8270353585921572224,5328868601582054156}}
+			Uuid{u4{2833135681256932272,5325630903501720556}}
+			Uuid{u4{16420686495731462530,5612461317318633276}}
+			Uuid{u4{10227614784269478300,4654326397470080506}}
+			Uuid{u4{5313158230837119931,5181271833179655261}}
+			Uuid{u4{18358495032255518365,5754653426641858532}}
+			Uuid{u4{6238503411402015659,4813652658163697760}}
+		}
+	}
+}
+o
+{
+	Uuid %id{u4{2833135681256932272,5325630903501720556}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		i3 %InitialValue{0}
+		HashedString %Name{s{"Fight_Action"}}
+	}
+}
+o
+{
+	Uuid %id{u4{8270353585921572224,5328868601582054156}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		i1 %InitialValue{0}
+		HashedString %Name{s{"Locomotion-State"}}
+	}
+}
+o
+{
+	Uuid %id{u4{16420686495731462530,5612461317318633276}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		i3 %InitialValue{0}
+		HashedString %Name{s{"Fighting-State"}}
+	}
+}
+o
+{
+	Uuid %id{u4{18358495032255518365,5754653426641858532}}
+	s %t{"ezBlackboardEntry"}
+	u3 %v{1}
+	p
+	{
+		s %Flags{""}
+		i3 %InitialValue{0}
+		HashedString %Name{s{"Hit-Reaction"}}
+	}
+}
+o
+{
+	Uuid %id{u4{18096612296587978288,6449934965513159559}}
+	s %t{"ezDocumentRoot"}
+	u3 %v{1}
+	s %n{"ObjectTree"}
+	p
+	{
+		VarArray %Children
+		{
+			Uuid{u4{7239056396489362837,5189764102383324185}}
+		}
+	}
+}
+}
+Types
+{
+o
+{
+	Uuid %id{u4{11005437603101136476,7368533338987833088}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezBitflagsBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{8593378931789007309,8402358305252805234}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"ezEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"ezBlackboardTemplateAssetObject"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{6089094783765586323,8705960867921430659}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{4287215348751137938,10033073971716187673}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Bitflags|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezBitflagsBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezBlackboardEntryFlags"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{48220615166662949,15649640188828373689}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezBlackboardEntry"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{983387834180907111,17935407260904399048}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezReflectedClass"}
+		u3 %TypeVersion{1}
+	}
+}
+}
