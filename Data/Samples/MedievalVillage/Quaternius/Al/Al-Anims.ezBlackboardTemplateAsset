@@ -11,7 +11,7 @@ o
 		s %AssetType{"BlackboardTemplate"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{10329652433739574682,5671752366801503622}}
-		u4 %Hash{3674900148353054303}
+		u4 %Hash{11226665561282965645}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps{}
@@ -148,7 +148,7 @@ o
 	p
 	{
 		s %Flags{""}
-		i3 %InitialValue{0}
+		i3 %InitialValue{-1}
 		HashedString %Name{s{"Hit-Reaction"}}
 	}
 }

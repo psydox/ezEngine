@@ -76,7 +76,14 @@ class AlAnimScript : ezAngelScriptClass
         int stateFight = (input.GetCurrentInputState("stance_fight", false) > 0) ? 1 : 0;
         bb.SetEntryValue("Fighting-State", stateFight);
 
-        if (stateFight == 1)
+        if (stateFight == 0)
+        {
+            if (input.GetCurrentInputState("interact2", true) > 0)
+            {
+                bb.SetEntryValue("Hit-Reaction-Play", true);
+            }
+        }
+        else if (stateFight == 1)
         {
             if (input.GetCurrentInputState("shoot", true) > 0)
             {
@@ -105,5 +112,16 @@ class AlAnimScript : ezAngelScriptClass
         {
             m_LocState = LocomotionState::Walking;
         }
+    }
+
+    void OnMsgDamage(ezMsgDamage@ msg)
+    {
+        ezLog::Info("Damage! {}", msg.Damage);
+
+        ezLocalBlackboardComponent@ bb;
+        if (!GetOwner().TryGetComponentOfBaseType(@bb))
+            return;
+
+        bb.SetEntryValue("Hit-Reaction-Play", true);
     }
 }

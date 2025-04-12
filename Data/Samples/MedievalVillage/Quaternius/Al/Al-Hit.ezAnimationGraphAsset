@@ -11,11 +11,25 @@ o
 		s %AssetType{"Animation Graph"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{13373034079676219808,4763355357888416741}}
-		u4 %Hash{8572380571757982887}
+		u4 %Hash{622895152366178727}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
-		VarArray %PackageDeps{}
-		VarArray %References{}
+		VarArray %PackageDeps
+		{
+			s{"{ 07fb1aa2-e955-4462-92ba-f523fb0a0047 }"}
+			s{"{ 197179f3-353d-4933-aa3b-ce317f29c66f }"}
+			s{"{ 55d544dd-7224-4815-9f13-c1e57bc81290 }"}
+			s{"{ bb61dec8-51d8-4b29-b791-9a20f22b1367 }"}
+			s{"{ d1a1625b-e86a-476d-a737-a7b1297e5edc }"}
+		}
+		VarArray %References
+		{
+			s{"{ 07fb1aa2-e955-4462-92ba-f523fb0a0047 }"}
+			s{"{ 197179f3-353d-4933-aa3b-ce317f29c66f }"}
+			s{"{ 55d544dd-7224-4815-9f13-c1e57bc81290 }"}
+			s{"{ bb61dec8-51d8-4b29-b791-9a20f22b1367 }"}
+			s{"{ d1a1625b-e86a-476d-a737-a7b1297e5edc }"}
+		}
 		s %Tags{""}
 	}
 }
@@ -228,6 +242,39 @@ o
 }
 o
 {
+	Uuid %id{u4{1521486125379339916,4802735969915201852}}
+	s %t{"ezAnimationClipMapping"}
+	u3 %v{1}
+	p
+	{
+		s %Clip{"{ 55d544dd-7224-4815-9f13-c1e57bc81290 }"}
+		s %ClipName{"Hit_Stomach"}
+	}
+}
+o
+{
+	Uuid %id{u4{7912524106971170948,4849029970772881623}}
+	s %t{"ezAnimationClipMapping"}
+	u3 %v{1}
+	p
+	{
+		s %Clip{"{ 07fb1aa2-e955-4462-92ba-f523fb0a0047 }"}
+		s %ClipName{"Hit_Chest"}
+	}
+}
+o
+{
+	Uuid %id{u4{14278181331674854589,4849773415783430158}}
+	s %t{"ezAnimationClipMapping"}
+	u3 %v{1}
+	p
+	{
+		s %Clip{"{ bb61dec8-51d8-4b29-b791-9a20f22b1367 }"}
+		s %ClipName{"Hit_Shoulder_R"}
+	}
+}
+o
+{
 	Uuid %id{u4{3627661608491594142,4867209898114380888}}
 	s %t{"ezDocumentObject_ConnectionBase"}
 	u3 %v{1}
@@ -265,7 +312,14 @@ o
 	u3 %v{1}
 	p
 	{
-		VarArray %AnimationClipMapping{}
+		VarArray %AnimationClipMapping
+		{
+			Uuid{u4{7912524106971170948,4849029970772881623}}
+			Uuid{u4{349252082334549170,5701733627158798257}}
+			Uuid{u4{17413101067779454340,5028762009077077357}}
+			Uuid{u4{14278181331674854589,4849773415783430158}}
+			Uuid{u4{1521486125379339916,4802735969915201852}}
+		}
 		VarArray %IncludeGraphs{}
 	}
 }
@@ -278,6 +332,17 @@ o
 	{
 		u1 %NumConnections{0}
 		i2 %PinIdx{0}
+	}
+}
+o
+{
+	Uuid %id{u4{17413101067779454340,5028762009077077357}}
+	s %t{"ezAnimationClipMapping"}
+	u3 %v{1}
+	p
+	{
+		s %Clip{"{ 197179f3-353d-4933-aa3b-ce317f29c66f }"}
+		s %ClipName{"Hit_Shoulder_L"}
 	}
 }
 o
@@ -297,10 +362,9 @@ o
 {
 	Uuid %id{u4{12689802578570381205,5064889845767787860}}
 	s %t{"ezSampleAnimClipSequenceAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		Uuid %ClipIndex{u4{11511055163915225295,12284042870817078006}}
 		s %CustomTitle{""}
 		s %EndClip{""}
@@ -322,6 +386,7 @@ o
 		Uuid %OutOnMiddleStarted{u4{6965416229248574911,4462993663081903365}}
 		Uuid %OutPose{u4{2020682745118072472,3914769799803316317}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 		s %StartClip{""}
 	}
 }
@@ -532,10 +597,9 @@ o
 {
 	Uuid %id{u4{10819020508658007471,5578314674589327143}}
 	s %t{"ezSampleAnimClipAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		s %Clip{"Hit_Chest"}
 		s %CustomTitle{""}
 		Uuid %InLoop{u4{11333294621307020273,3595576670436147612}}
@@ -547,6 +611,7 @@ o
 		Uuid %OutOnStarted{u4{6832094079625998804,12753637977884692768}}
 		Uuid %OutPose{u4{16137467506447655519,1446545299413303291}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 	}
 }
 o
@@ -622,6 +687,17 @@ o
 		Uuid %OutCurrentWeight{u4{14317630565619667613,76451212888352816}}
 		Uuid %OutOnFadedIn{u4{16922688712818466751,17247505618189512507}}
 		Uuid %OutOnFadedOut{u4{4134228132191809037,5011674221255822415}}
+	}
+}
+o
+{
+	Uuid %id{u4{349252082334549170,5701733627158798257}}
+	s %t{"ezAnimationClipMapping"}
+	u3 %v{1}
+	p
+	{
+		s %Clip{"{ d1a1625b-e86a-476d-a737-a7b1297e5edc }"}
+		s %ClipName{"Hit_Head"}
 	}
 }
 o
@@ -913,10 +989,9 @@ o
 {
 	Uuid %id{u4{14388991258016644167,10207345460669811729}}
 	s %t{"ezSampleAnimClipAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		s %Clip{"Hit_Shoulder_L"}
 		s %CustomTitle{""}
 		Uuid %InLoop{u4{2997257042689509442,1580840856092620418}}
@@ -928,6 +1003,7 @@ o
 		Uuid %OutOnStarted{u4{15507453064035829197,12592301056664781573}}
 		Uuid %OutPose{u4{13621383986736522169,5341661689404048875}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 	}
 }
 o
@@ -964,10 +1040,9 @@ o
 {
 	Uuid %id{u4{8570153448781952050,10528403425547120744}}
 	s %t{"ezSampleAnimClipAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		s %Clip{"Hit_Head"}
 		s %CustomTitle{""}
 		Uuid %InLoop{u4{7510180319708251652,195923594031479313}}
@@ -979,16 +1054,16 @@ o
 		Uuid %OutOnStarted{u4{11969238646747610091,6856805269311211575}}
 		Uuid %OutPose{u4{2786401813214388726,250540125907927914}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 	}
 }
 o
 {
 	Uuid %id{u4{10208339091343305325,10693788442296626104}}
 	s %t{"ezSampleAnimClipAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		s %Clip{"Hit_Shoulder_R"}
 		s %CustomTitle{""}
 		Uuid %InLoop{u4{10488357331433235615,13651413357685655557}}
@@ -1000,6 +1075,7 @@ o
 		Uuid %OutOnStarted{u4{3104743881911848887,16143018495039804819}}
 		Uuid %OutPose{u4{6852956055765985036,15550183102393978435}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 	}
 }
 o
@@ -1017,10 +1093,9 @@ o
 {
 	Uuid %id{u4{11143395534844956211,10915220962656911464}}
 	s %t{"ezSampleAnimClipAnimNode"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
-		b %ApplyRootMotion{0}
 		s %Clip{"Hit_Stomach"}
 		s %CustomTitle{""}
 		Uuid %InLoop{u4{9090939872092647634,13698237330692168757}}
@@ -1032,6 +1107,7 @@ o
 		Uuid %OutOnStarted{u4{5289289497358630355,14382948974901251543}}
 		Uuid %OutPose{u4{581547299664549566,12098838838846767229}}
 		f %PlaybackSpeed{0x0000803F}
+		f %RootMotionAmount{0}
 	}
 }
 o
@@ -1542,7 +1618,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSampleAnimClipAnimNode"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -1593,7 +1669,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSampleAnimClipSequenceAnimNode"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
